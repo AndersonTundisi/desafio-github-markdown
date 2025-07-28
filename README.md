@@ -20,11 +20,8 @@ git push origin main # Envia para o repositório remoto
 Fluxo básico de versionamento:
 
 Modificar arquivos
-
 git add
-
 git commit
-
 git push
 
 🚀 2. Produtos e Funcionalidades do GitHub
@@ -73,9 +70,7 @@ desafio-github-markdown/
 ✅ Requisitos para execução Conta no GitHub
 
 Git instalado localmente
-
 Editor de texto (recomendado: VSCode)
-
 Navegador atualizado
 
 💡 Objetivo do Desafio
