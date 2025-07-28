@@ -23,26 +23,37 @@ Este documento resume os principais conceitos e comandos do **Git**, sistema de 
 ## 🔧 Comandos básicos
 
 git init                # Inicia um novo repositório Git
+
 git status              # Verifica o estado dos arquivos
+
 git add arquivo.txt     # Adiciona um arquivo ao staging
+
 git commit -m "mensagem" # Cria um commit
+
 git log                 # Exibe o histórico de commits
+
 git diff                # Mostra diferenças entre arquivos
+
 🌐 Trabalhando com repositórios remotos
-bash
-Copiar
-Editar
+
 git remote add origin <url>   # Adiciona um repositório remoto
+
 git push -u origin main       # Envia as alterações
+
 git pull origin main          # Atualiza com alterações remotas
+
 git clone <url>               # Clona um repositório remoto
+
 🔀 Branches
 Utilizadas para desenvolver funcionalidades isoladamente.
 
 Exemplo:
 git checkout -b nova-feature
+
 git switch main
+
 git merge nova-feature
+
 🧠 Dica
 "Commite cedo, commite com frequência. Documente bem cada mudança."
 
